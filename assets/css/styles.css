@@ -7,6 +7,7 @@
 
 /* set font */
 html {
+    scroll-behavior: smooth;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -79,7 +80,7 @@ html {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     min-width: 160px;
-    top: 105%;
+    top: 100%;
     left: 0;
 }
 
@@ -419,6 +420,27 @@ html {
 
 .contact-form .submit-btn:hover {
     opacity: 0.8;
+}
+
+#footer {
+    padding: 64px 16px;
+}
+
+#footer .social-list {
+    font-size: 24px;;
+}
+
+#footer .social-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .social-list a:hover {
+    opacity: 0.6;   
+}
+
+#footer .license {
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 16px;
 }
 @keyframes ShowModal {
     from {
