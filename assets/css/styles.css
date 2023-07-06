@@ -153,17 +153,22 @@ html {
     margin-top: 25px;
 }
 
-
+#header .mobile-menu:hover,
 #header .search-btn:hover {
     background-color: #cd3f23;
     cursor: pointer;
     
 }
 
+#header .mobile-menu,
 #header .search-btn  {
     float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
+#header .menu-btn,
 #header .search-icon {
     color: #fff;
     font-size: 20px;
