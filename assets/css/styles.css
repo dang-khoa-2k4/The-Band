@@ -67,7 +67,7 @@ html {
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 1; /* độ ưu tiên */
+    z-index: 1; /*độ ưu tiên*/
 } 
 
 #nav {
@@ -130,7 +130,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/ny.jpg') center top / cover no-repeat;
+    background: url('../img/ny.jpg') center top / cover no-repeat;
 }
 
 #slider .text-content {
@@ -146,11 +146,14 @@ html {
 #slider .text-heading {
     font-weight: 500;
     font-size: 24px;
+    text-shadow: 0 0 2px #000;
+
 }
 
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 2px #000;
 }
 
 #header .mobile-menu:hover,
@@ -421,6 +424,7 @@ html {
     padding: 10px 20px;
     float: right;
     border-radius: 3px;
+    -webkit-appearance: none;
 }
 
 .contact-form .submit-btn:hover {
@@ -432,7 +436,7 @@ html {
 }
 
 #footer .social-list {
-    font-size: 24px;;
+    font-size: 24px;
 }
 
 #footer .social-list a {
